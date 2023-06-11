@@ -1,1 +1,1 @@
-web: gunicorn 'creepy_auction.wsgi'
+web: gunicorn 'creepy_auction.wsgi' --log-file -
